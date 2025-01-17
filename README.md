@@ -6,7 +6,7 @@
 - **Father's Name**: Muhammad Siddiue
 - **Roll No**: 00413850
 
-## Hackathon Details
+##  Details
 
 - **Days**: Saturday
 - **Time**: 7:00 PM - 10:00 PM
