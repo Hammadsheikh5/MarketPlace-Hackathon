@@ -7,4 +7,4 @@ TC005,Verify dynamic routing,Click on product > Verify detail page,Product detai
 TC006,Test API responses,Send requests using Postman,API responds as expected,API responds as expected,Passed,Medium,-,All endpoints functional
 TC007,Component behavior testing,Simulate user actions > Validate behavior,Components work as expected,Components work as expected,Passed,Low,-,React Testing Library successful
 TC008,End-to-end testing,Perform end-to-end tests using Cypress,All flows work correctly,All flows work correctly,Passed,High,-,No issues in E2E tests
-TC009,Cross Browsering,Open Our website on different Browsers such as yahoo, google, safari, edge,Working Correctly on every browsers,Working Correctly on every browsers,Passed,Low,-,Successfully
+TC009,Cross Browsering,Open Our website on different Browsers such as yahoo," google, safari ,edge",Working Correctly on every browsers,Paassed,Low,-,Successfully
