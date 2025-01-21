@@ -1,0 +1,24 @@
+import csv
+
+# Data for the CSV file
+test_data = [
+    ["Test Case ID", "Test Case Description", "Test Steps", "Expected Result", "Actual Result", "Status", "Severity Level", "Assigned To", "Remarks"],
+    ["TC001", "Validate product listing page", "Open product page > Verify products", "Products displayed correctly", "Products displayed correctly", "Passed", "Low", "-", "No issues found"],
+    ["TC002", "Validate filters functionality", "Apply filters > Verify results", "Accurate results displayed", "Accurate results displayed", "Passed", "Medium", "-", "Working as expected"],
+    ["TC003", "Test favorite feature", "Add to favorites > Remove from favorites", "Favorite list updates correctly", "Favorite list updates correctly", "Passed", "Medium", "-", "No issues found"],
+    ["TC004", "Check cart operations", "Add to cart > Update quantity > Remove from cart", "Cart updates correctly", "Cart updates correctly", "Passed", "High", "-", "All operations successful"],
+    ["TC005", "Verify dynamic routing", "Click on product > Verify detail page", "Product detail page loads correctly", "Product detail page loads correctly", "Passed", "Medium", "-", "No issues found"],
+    ["TC006", "Test API responses", "Send requests using Postman", "API responds as expected", "API responds as expected", "Passed", "Medium", "-", "All endpoints functional"],
+    ["TC007", "Component behavior testing", "Simulate user actions > Validate behavior", "Components work as expected", "Components work as expected", "Passed", "Low", "-", "React Testing Library successful"],
+    ["TC008", "End-to-end testing", "Perform end-to-end tests using Cypress", "All flows work correctly", "All flows work correctly", "Passed", "High", "-", "No issues in E2E tests"]
+]
+
+# File path for the CSV
+file_path = "/mnt/data/functional_testing_results.csv"
+
+# Writing to CSV file
+with open(file_path, mode='w', newline='', encoding='utf-8') as file:
+    writer = csv.writer(file)
+    writer.writerows(test_data)
+
+file_path
